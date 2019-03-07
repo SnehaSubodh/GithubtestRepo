@@ -1,0 +1,6 @@
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.Entities\bin\Debug\VehicleRentalAgency.Entities.dll
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.Entities\bin\Debug\VehicleRentalAgency.Entities.pdb
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.Entities\obj\Debug\VehicleRentalAgency.Entities.csprojAssemblyReference.cache
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.Entities\obj\Debug\VehicleRentalAgency.Entities.csproj.CoreCompileInputs.cache
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.Entities\obj\Debug\VehicleRentalAgency.Entities.dll
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.Entities\obj\Debug\VehicleRentalAgency.Entities.pdb

@@ -1,0 +1,11 @@
+﻿@model List<string>
+
+@{ Layout = null;}
+
+@foreach (var item in Model)
+{
+    @Html.ActionLink(item, "Search", new { searchText = item })<text>|</text>
+    @*<a href="/Produts/Search/"@item>@item</a>*@
+}
+
+
