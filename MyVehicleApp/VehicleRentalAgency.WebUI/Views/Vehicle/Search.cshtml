@@ -1,0 +1,88 @@
+﻿@model IEnumerable<VehicleRentalAgency.Entities.Vehicle>
+
+@{
+    ViewBag.Title = "Search";
+}
+
+
+<h2>Search</h2>
+<form action="/Vehicle/Search" method="post">
+
+    @*@Html.DropDownList("searchText",ViewBag.CategotyList as SelectList)*@
+
+    @Html.DropDownList("searchText")
+    <input type="submit" name=" btnsubmit" value="Search" />
+</form>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RegistrationNum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Manufacturer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DailyRent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Milage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FuelType)
+        </th>
+
+
+        <div id="details"></div>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegistrationNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manufacturer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DailyRent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Milage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FuelType)
+            </td>
+
+            <form action="/Vehicle/BookVehicles" method="post">
+                <td>
+                    <input type="number" name="quantity" value="@item.Quantity" />
+                    <input type="number" name="vehicleId" value="@item.VehicleId" />
+
+                </td>
+                <td>
+                    <input type="submit" name="btnAdd" value="Book It" class="btn-bg-info" />
+                </td>
+            </form>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.VehicleId })
+            </td>
+        </tr>
+    }
+
+</table>
+

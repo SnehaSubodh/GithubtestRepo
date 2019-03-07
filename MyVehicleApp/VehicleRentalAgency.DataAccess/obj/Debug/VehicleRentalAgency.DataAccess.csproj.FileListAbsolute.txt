@@ -1,0 +1,16 @@
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\bin\Debug\VehicleRentalAgency.DataAccess.dll.config
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\bin\Debug\VehicleRentalAgency.DataAccess.dll
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\bin\Debug\VehicleRentalAgency.DataAccess.pdb
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\bin\Debug\VehicleRentalAgency.Entities.dll
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\bin\Debug\VehicleRentalAgency.Entities.pdb
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\obj\Debug\VehicleRentalAgency.DataAccess.csprojAssemblyReference.cache
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\obj\Debug\VehicleRentalAgency.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\obj\Debug\VehicleRentalAgency.DataAccess.csproj.CopyComplete
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\obj\Debug\VehicleRentalAgency.DataAccess.dll
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\obj\Debug\VehicleRentalAgency.DataAccess.pdb
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\obj\Debug\VehicleRentalAgency.DataAccess.Migrations.InitialCreate.resources
+C:\Users\cc150\workspace\itr2\MyVehicleApp\VehicleRentalAgency.DataAccess\obj\Debug\VehicleRentalAgency.DataAccess.csproj.GenerateResource.cache
